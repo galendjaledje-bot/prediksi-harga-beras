@@ -360,3 +360,5 @@ with tab4:
     desc = df.groupby('provinsi')['harga'].describe().round(0)
     desc.columns = ['Count','Mean','Std','Min','25%','50%','75%','Max']
     st.dataframe(desc, use_container_width=True)
+st.markdown("---")
+st.markdown("<p style='text-align: center; color: #888; font-size: 14px;'>Made with ❤️ by <b>Glenn djaledje</b></p>", unsafe_allow_html=True)
