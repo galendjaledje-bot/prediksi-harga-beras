@@ -23,9 +23,9 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
 .section-title { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
 .section-sub   { font-size: 13px; color: #888; margin-bottom: 20px; }
 .badge-rf { display:inline-block; background:#EFF6EC; color:#2D6A2A; border-radius:20px; padding:3px 12px; font-size:12px; font-weight:600; }
-.badge-lr { display:inline-block; background:#EEF2FF; color:#3730A3; border-radius:20px; padding:3px 12px; font-size:12px; font-weight:600; }
-[data-testid="stSidebar"] { background: white; border-right: 1px solid #E8E6E0; }
-div[data-testid="metric-container"] { background: white; border: 1px solid #E8E6E0; border-radius: 12px; padding: 10px 14px; min-height: 105px; }
+div[data-testid="metric-container"] { background: white; border: 1px solid #E8E6E0; border-radius: 12px; padding: 10px 14px; min-height: 110px; }
+div[data-testid="metric-container"] [data-testid="stMetricLabel"] { font-size: 13px !important; }
+div[data-testid="metric-container"] [data-testid="stMetricValue"] { font-size: 15px !important; font-weight: 700; white-space: normal !important; word-break: break-word !important; }
    div[data-testid="metric-container"] [data-testid="stMetricLabel"] { font-size: 13px !important; }
    div[data-testid="metric-container"] [data-testid="stMetricValue"] { font-size: 18px !important; font-weight: 700; white-space: nowrap; }
 .stTabs [data-baseweb="tab-list"] { gap:4px; background:#F3F2EE; border-radius:10px; padding:4px; }
