@@ -1,9 +1,19 @@
 # 🌾 Prediksi Harga Beras Indonesia
 
-Aplikasi web prediksi harga beras menggunakan **Regresi Linier** dan **Random Forest Regressor**.
+Aplikasi web interaktif untuk memprediksi harga beras di **34 provinsi Indonesia** menggunakan pendekatan Machine Learning (**Regresi Linier** dan **Random Forest Regressor**). Proyek ini dibangun menggunakan framework Streamlit untuk visualisasi data dan deployment.
+
+---
+
+### 👤 Identitas Mahasiswa
+* **Nama:** [Glenn fergian djaledje]
+* **NIM:** [F5212520081]
+* **Kelas:** [C]
+* **Mata Kuliah:** Statistika
+* **Program Studi:** Sistem Informasi
+
+---
 
 ## 📁 Struktur Project
-
 ```
 rice_price_app/
 ├── app.py              # Aplikasi Streamlit utama
