@@ -23,11 +23,11 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
 .section-title { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 4px; }
 .section-sub   { font-size: 13px; color: #888; margin-bottom: 20px; }
 .badge-rf { display:inline-block; background:#EFF6EC; color:#2D6A2A; border-radius:20px; padding:3px 12px; font-size:12px; font-weight:600; }
-div[data-testid="metric-container"] { background: white; border: 1px solid #E8E6E0; border-radius: 12px; padding: 10px 14px; min-height: 110px; }
+
+div[data-testid="metric-container"] { background: white; border: 1px solid #E8E6E0; border-radius: 12px; padding: 10px 14px; min-height: 115px; }
 div[data-testid="metric-container"] [data-testid="stMetricLabel"] { font-size: 13px !important; }
 div[data-testid="metric-container"] [data-testid="stMetricValue"] { font-size: 15px !important; font-weight: 700; white-space: normal !important; word-break: break-word !important; }
-   div[data-testid="metric-container"] [data-testid="stMetricLabel"] { font-size: 13px !important; }
-   div[data-testid="metric-container"] [data-testid="stMetricValue"] { font-size: 18px !important; font-weight: 700; white-space: nowrap; }
+
 .stTabs [data-baseweb="tab-list"] { gap:4px; background:#F3F2EE; border-radius:10px; padding:4px; }
 .stTabs [data-baseweb="tab"] { border-radius:8px; padding:8px 20px; font-weight:500; font-size:14px; }
 .stTabs [aria-selected="true"] { background:white !important; color:#1a1a1a !important; }
@@ -37,7 +37,7 @@ hr { border-color: #E8E6E0; }
 
 
 @st.cache_data
-def load_and_train(filepath="data/Price_Rice_In_Indonesia_2021-2024.csv"):
+def load_and_train(filepath="Price_Rice_In_Indonesia_2021-2024.csv"):
     df = load_data(filepath)
     df_feat, provinsi_map = feature_engineering(df)
     lr, rf, X_train, X_test, y_train, y_test, train, test = train_models(df_feat)
